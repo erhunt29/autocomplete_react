@@ -7112,6 +7112,9 @@ function (_Component) {
         onChange: function onChange(evt) {
           return _this2.filterList(evt);
         },
+        onClick: function onChange(evt) {
+          return _this2.filterList(evt);
+        },
         onBlur: this.focusOut,
         value: value,
         placeholder: placeholder
