@@ -20,6 +20,7 @@ export default class Autocomplete extends Component {
             <div>
                 <input className={'autocomplete__input'}
                        onChange= {evt => this.filterList(evt)}
+                       onClick= {evt => this.filterList(evt)}
                        onBlur={this.focusOut}
                        value= {value}
                        placeholder = {placeholder}/>
